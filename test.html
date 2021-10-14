@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="red">asdf</header>
+        <main class="lime">asdf</main>
+        <footer class="orange">asdf</footer>
+      </div>
+</body>
+
+<style>
+.wrapper {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-gap: 10px;
+}
+.wrapper > header {
+    grid-area: "header";
+}
+
+.wrapper > main {
+    grid-area: "main";
+}
+
+.wrapper > footer {
+    grid-area: "footer";
+}
+
+.red {
+    background-color: rgb(243, 106, 91);
+}
+
+.lime {
+    background-color: rgb(81, 252, 81);
+}
+
+.orange {
+    background-color: rgb(255, 130, 47);
+}
+
+
+</style>
+</html>
