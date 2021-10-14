@@ -1,24 +1,40 @@
 body {
     margin: unset;
 }
-.wrapper {
-    display: grid;
-    grid-template-areas: "header" "main" "footer";
+
+header {
+    height: 150px;
+    background: url("/images/banner.png");
+    background-position: center center;
+    background-size: cover;
 }
 
-.wrapper>header {
-    grid-area: "header";
-    height: 100px;
+main {
+    min-height: calc(100vh - 130px);
 }
 
-.wrapper>main {
-    grid-area: "main";
-    padding-top: 30px;
-}
-
-.wrapper>footer {
+footer {
     grid-area: "footer";
     height: 500px;
+}
+
+.slim_layout {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 5px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: sans-serif;
+    margin: 30px;
+    text-align: center;
+}
+
+span {
+    font-size: 1.5rem;
+    font-family: sans-serif
 }
 
 .red {
