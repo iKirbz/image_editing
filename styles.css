@@ -17,34 +17,16 @@ header {
 
 main {
     min-height: 90vh;
-}
-
-footer {
-    grid-area: "footer";
-    height: 500px;
-    background-color: #131A21;
-}
-
-main {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px 5px;
 }
 
-.nav-image {
-    display: grid;
-    border-radius: 7px;
-    overflow: hidden;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
-}
-
-.nav-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 15px;
-    grid-auto-rows: minmax(100px, auto);
-    margin-bottom: 50px;
+footer {
+    grid-area: "footer";
+    height: 500px;
+    background-color: #131A21;
 }
 
 h1 {

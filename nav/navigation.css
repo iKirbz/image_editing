@@ -1,0 +1,15 @@
+.nav-image {
+    display: grid;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 15px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+}
