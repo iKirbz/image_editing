@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/slider/slider.css">
+    <link rel="stylesheet" href="/nav/navigation.css">
+</head>
+
+<body>
+    <header>
+        <div class="titel" style="max-width: 800px">
+            <h1>Gabriels und Tonis suppa rasses Photoshop Tutorial 101</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="../edit1/index.html">
+                <div class="nav-image active">
+                    <img src="/nav/images/01.png" alt="">
+                </div>
+            </a>
+            <a href="../edit2/index.html">
+                <div class="nav-image">
+                    <img src="/nav/images/02.png" alt="">
+                </div>
+            </a>
+            <a href="../edit2/index.html">
+                <div class="nav-image">
+                    <img src="/nav/images/01.png" alt="">
+                </div>
+            </a>
+            <a href="../edit2/index.html">
+                <div class="nav-image">
+                    <img src="/nav/images/01.png" alt="">
+                </div>
+            </a>
+            <a href="../edit2/index.html">
+                <div class="nav-image">
+                    <img src="/nav/images/01.png" alt="">
+                </div>
+            </a>
+            <a href="../edit2/index.html">
+                <div class="nav-image">
+                    <img src="/nav/images/01.png" alt="">
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>CatLoaf</h1>
+        <h2>Intermediateclass</h2>
+        <p>
+            Behandelte Themen:
+            <b>Transformieren</b>,
+            <b>Maskieren</b>,
+            <b>Stempel</b>
+        </p>
+        <h3>Ausgangsbild</h3>
+        <div class="image-step">
+            <img src="images/01.png">
+        </div>
+        <h3>Einzufügendes Bild</h3>
+        <div class="image-step">
+            <img src="images/Bread.png">
+        </div>
+
+        <hr />
+
+        <h3>1. Ausschneiden</h3>
+        <p>
+            Kopf markieren mit beliebigen Markierwerkzeug (z.B. Schnellauswahl <img class="tooltip-inline" src="tooltips/1_Schnellauswahl.png">) und mit <kbd>STRG</kbd>+<kbd>X</kbd> ausschneiden und mit <br><kbd>STRG</kbd>+<kbd>V</kbd> einfügen. 
+        </p>
+         
+        <div class="image-step">
+            <img src="images/02.png">
+        </div>
+
+        <hr />
+
+        <h3>2. Transformieren</h3>
+        <p>
+            Das Brot-Bild einfügen und unter die Katzenkopfebene ziehen.
+        </p>
+        <div class="tooltip">
+            <img src="tooltips/2_EbeneVorschau1.png">
+        </div>
+        <p>
+            Die Ebene mit der Katze ohne Kopf kann ausgeblendet werden (Augensymbol <img class="tooltip-inline" src="tooltips/2_Auge.JPG">) 
+        </p>
+        <p>
+            Den Kopf mit <kbd>STRG</kbd>+<kbd>T</kbd> auswählen und auf die gewünschte Position ziehen. Gegebenenfalls Skalierung und Rotation verändern. 
+        </p>
+        <p>
+        Ebene mit „Rechtsklick“ --> „mit darunterliegenden auf eine Ebene reduzieren“ auf eine Ebene zusammenfügen. 
+        </p>
+        <div class="tooltip">
+            <img src="tooltips/2_EbeneReduzieren.png">
+        </div>
+        
+        <br>
+        <br>
+        <div class="image-step">
+            <img src="images/03.png">
+        </div>
+
+        <hr />
+
+        <h3>3. Übergang</h3>
+
+        <p>
+            Der Übergang zwischen dem Kopf und dem Brot sollte flüssiger gemacht werden. Dies machen wir mit dem Stempel. <img class="tooltip-inline" src="tooltips/3_Stempel.png">
+        </p>
+        <p>
+           Wähle einen Pinsel aus, der recht klein ist und keine Härte hat.  Die Deckkraft sollte auch reduziert werden. <img class="tooltip-inline" src="tooltips/3_Deckkraft.png">
+        </p>
+        <div class="tooltip">
+            <img src="tooltips/3_Pinsel.JPG">
+        </div>      
+        <p>
+            Mit <kbd>ALT</kbd>+<kbd>LINKSKLICK</kbd> einen Bereich auf dem Brot markieren (Anker setzen) und mit <kbd>LINKSKLICK</kbd> über den Übergang zeichnen. Deckkraft, Fluss, Härte und Pinselgröße können nach Bedarf verstellt werden. 
+        </p>
+        <div class="image-step">
+            <img src="images/04.png">
+        </div>
+
+         
+         <hr />
+         
+         <h3>4. Hintergrund</h3>
+
+        <p>
+            Um unser Projekt abzurunden fügen wir noch einen Hintergrund ein. 
+        </p>
+        <p>
+            Beliebiges Bild einfach in Photoshop ziehen. Größe mit <kbd>STRG</kbd>+<kbd>T</kbd> eventuell anpassen. 
+        </p>
+        <p>
+            Es ist wichtig, dass der Hintergrund auf der untersten Ebene ist. 
+        </p>
+        <div class="tooltip">
+            <img src="tooltips/4_EbeneVorschau2.png">
+        </div>  
+        <div class="image-step">
+            <img src="images/05.png">
+        </div>
+        
+        <div data-slide="test1" class="slide">
+            <div class="slide-items">
+                <img src="images/01.png">
+                <img src="images/02.png">
+                <img src="images/03.png">
+                <img src="images/04.png">
+                <img src="images/05.png">>
+            </div>
+            <nav class="slide-nav">
+                <div class="slide-thumb"></div>
+                <button class="slide-prev">Prev</button>
+                <button class="slide-next">Next</button>
+            </nav>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="../../slider/slider.js"></script>
+</body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+</html>
