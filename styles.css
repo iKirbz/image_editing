@@ -84,9 +84,8 @@ p {
     height: 100%;
 }
 
-.tooltip {
+.tooltip img {
     max-width: 80%;
-    width: reset;
 }
 
 .tooltip-inline {
